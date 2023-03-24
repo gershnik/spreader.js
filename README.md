@@ -6,7 +6,8 @@ A fast spreadsheet logic library implemented in WebAssembly.
 
 [![License](https://img.shields.io/badge/license-BSD-brightgreen.svg)](https://opensource.org/licenses/BSD-3-Clause)
 [![npm](https://img.shields.io/npm/v/@centipede/spreader)]()
-[![Standard](https://img.shields.io/badge/Language-ES6-blue.svg)](hh)
+[![Standard](https://img.shields.io/badge/Language-ES6-blue.svg)]()
+[![Size](https://img.shields.io/bundlephobia/minzip/@centipede/spreader)]()
 
 <!-- References -->
 
@@ -27,7 +28,7 @@ npm install @centipede/spreader  --save
 ## Quick start
 
 ```js
-const Spreader  = require('spreader')
+const Spreader  = require('@centipede/spreader')
 ...
 //Spreader is implemented in Webassembly so it needs to be loaded asynchronously
 const spreaderLib = await Spreader();
