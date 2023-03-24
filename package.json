@@ -1,11 +1,14 @@
 {
     "name": "@centipede/spreader",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Fast spreadsheet logic library implemented in WebAssembly",
-    "keywords": ["spreadsheet", "webassembly", "wasm"],
+    "keywords": [
+        "spreadsheet",
+        "webassembly",
+        "wasm"
+    ],
     "author": "Eugene Gershnik <gershnik@hotmail.com>",
     "license": "BSD-3-Clause",
-
     "scripts": {
         "test": "sfsdf"
     },
@@ -13,7 +16,6 @@
         "type": "git",
         "url": "github:gershnik/spreader.js"
     },
-  
     "main": "src/spreader.js",
     "types": "src/spreader.d.ts",
     "files": [
