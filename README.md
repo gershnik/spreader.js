@@ -5,9 +5,9 @@
 A fast spreadsheet logic library implemented in WebAssembly. 
 
 [![License](https://img.shields.io/badge/license-BSD-brightgreen.svg)](https://opensource.org/licenses/BSD-3-Clause)
-[![npm](https://img.shields.io/npm/v/@centipede/spreader)]()
-[![Standard](https://img.shields.io/badge/Language-ES6-blue.svg)]()
-[![Size](https://img.shields.io/bundlephobia/minzip/@centipede/spreader)]()
+[![npm](https://img.shields.io/npm/v/@centipede/spreader)](https://www.npmjs.com/package/@centipede/spreader)
+[![Standard](https://img.shields.io/badge/Language-ES6-blue.svg)](https://262.ecma-international.org/6.0/)
+![Size](https://img.shields.io/bundlephobia/minzip/@centipede/spreader)
 
 <!-- References -->
 
