@@ -1,0 +1,34 @@
+name: Test
+
+on: 
+  push:
+    branches: 
+      - '*'
+      - '*/**'
+    paths-ignore:
+      - 'README.md'
+      - '.gitignore'
+      - 'LICENSE'
+      - 'Acknowledgments.md'
+      - 'README.md'
+
+jobs:
+  ubuntu:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        submodules: true
+
+    - name: Setup Emscripten
+      uses: mymindstorm/setup-emsdk@v11
+      with:
+        version: 3.1.26
+        actions-cache-folder: 'emsdk-cache'
+
+    - name: Test
+      run: |
+          export EMSCRIPTEN_CMAKE_TOOLCHAIN=$EMSDK/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake
+          ./build.js
+          ./test.js

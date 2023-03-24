@@ -1,3 +1,3 @@
 [submodule "code"]
 	path = code
-	url = ssh://linux-server:/Git/spreader.git
+	url = git@github.com:gershnik/spreader.git
