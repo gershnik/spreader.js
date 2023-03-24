@@ -2,3 +2,5 @@ cmake-build/
 src/
 .vscode/
 .env
+.npmrc
+
