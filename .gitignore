@@ -3,4 +3,6 @@ src/
 .vscode/
 .env
 .npmrc
+.DS_Store
+
 
