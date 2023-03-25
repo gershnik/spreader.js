@@ -12,6 +12,7 @@ on:
       - 'Acknowledgments.md'
       - 'README.md'
       - 'CHANGELOG.md'
+      - '.github/workflows/publish.yml'
 
 jobs:
   ubuntu:
