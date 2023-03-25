@@ -13,7 +13,6 @@ A fast spreadsheet logic library implemented in WebAssembly.
 
 [dynamicformulas]: <https://support.microsoft.com/en-us/office/dynamic-array-formulas-and-spilled-array-behavior-205c6b06-03ba-4151-89a1-87a7eb36e531> (Dynamic Array Formulas)
 
-
 <!--  End References -->
 
 Spreader is a zero dependency module that implements spreadsheet logic - reading and writing data and formulas into cells, automatic recalculation, copying and moving cells, adding and deleting rows and columns and so on. It does not implement any spreadsheet UI. 

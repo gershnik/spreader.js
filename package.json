@@ -21,6 +21,7 @@
     "files": [
         "src/spreader.js",
         "src/spreader.wasm",
-        "src/spreader.d.ts"
+        "src/spreader.d.ts",
+        "CHANGELOG.md"
     ]
 }

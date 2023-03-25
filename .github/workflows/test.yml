@@ -11,6 +11,7 @@ on:
       - 'LICENSE'
       - 'Acknowledgments.md'
       - 'README.md'
+      - 'CHANGELOG.md'
 
 jobs:
   ubuntu:
